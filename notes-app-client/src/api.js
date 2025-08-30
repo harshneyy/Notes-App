@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5001/api', // Your backend URL
+    baseURL: 'https://my-notes-app-api.onrender.com/api',  // Your backend URL
 });
 
 // This is an interceptor. It runs before every request.
