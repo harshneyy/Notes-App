@@ -14,7 +14,7 @@ const app = express();
 
 
 const corsOptions = {
-  origin: 'https://notes-app-five-theta.vercel.app/', // <-- PASTE YOUR VERCEL URL HERE
+  origin: 'https://notes-app-five-theta.vercel.app', // <-- PASTE YOUR VERCEL URL HERE
   optionsSuccessStatus: 200 // For legacy browser support
 };
 
